@@ -26,7 +26,7 @@ Python Kickstart provides a structured learning path for students new to program
 3. Install dependencies: `pip install -r requirements.txt`
 4. Start with Chapter 1 in the `book/` directory
 
-## 🧪 Testing Your Code
+## Testing Your Code
 
 This course uses automated tests to give you instant feedback on your exercises. Here's how to test your solutions:
 
@@ -55,17 +55,17 @@ pytest tests/ -v
 
 For more detailed testing information, see [`tests/README.md`](tests/README.md).
 
-## 💾 Saving Your Progress with GitHub
+## Saving Your Progress with GitHub
 
 Want to save your work and access it from different computers? GitHub makes it easy to sync your progress across all your devices.
 
-### 📚 GitHub Guides
+### GitHub Guides
 
-- **[🐙 Using GitHub](docs/using-github.md)** - Complete guide to forking, cloning, and syncing your work
-- **[🔄 Updating Your Fork](docs/UPDATING-FORK.md)** - How to get the latest course updates
-- **[🚨 Troubleshooting](docs/TROUBLESHOOTING.md)** - Solutions to common Python and setup issues
+- **[Using GitHub](docs/using-github.md)** - Complete guide to forking, cloning, and syncing your work
+- **[Updating Your Fork](docs/UPDATING-FORK.md)** - How to get the latest course updates
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Solutions to common Python and setup issues
 
-### 🚀 Quick Start with GitHub
+### Quick Start with GitHub
 
 1. **Fork** the repository on GitHub to create your own copy
 2. **Clone** your fork: `git clone https://github.com/YOUR-USERNAME/python-kickstart.git`
@@ -89,7 +89,7 @@ python-kickstart/
 
 ## Contributing
 
-This project follows the structure of JS Kickstart and C# Kickstart for consistency. See [PLAN.md](docs/devdocs/PLAN.md) for development roadmap and [BACKLOG.md](docs/devdocs/BACKLOG.md) for current tasks.
+
 
 ## License
 
