@@ -130,6 +130,7 @@ class = "Math"       # ❌ Reserved word
 ```python
 age = "25"           # String, not number
 count = 5.0          # Float, not integer
+
 ```
 
 ### Forgetting Assignment

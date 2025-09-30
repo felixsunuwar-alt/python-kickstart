@@ -3,24 +3,54 @@
 
 # TODO: Define your area calculation functions here
 
+import math
+
 def calculate_rectangle_area(length, width):
-    """Calculate the area of a rectangle"""
+
+  
     # TODO: Calculate and return length * width
-    pass
+    return length * width
 
 def calculate_circle_area(radius):
     """Calculate the area of a circle"""
     # TODO: Calculate and return π * radius²
     # Use 3.14159 for π
-    pass
+    return 3.14159 * radius**2
 
 def calculate_triangle_area(base, height):
     """Calculate the area of a triangle"""
     # TODO: Calculate and return (base * height) / 2
-    pass
+    return (base * height) / 2
 
 # TODO: Use your functions to calculate areas
-print("=== Area Calculator ===")
+def meny():
+    print("=== Area Calculator ===")
+    print("1. räkna ut area av en rektangel")
+    print("2. räkna ut arean av en circel")
+    print("3. räkna ut area av en triangle")
+    print("4. avsluta")
+    val = input("Välj ett alternativ (1-4): ")
+    if val == "1":
+        length = float(input("Ange bredden på rektangeln: "))
+        width = float(input("Ange höjden på rektangeln: "))
+        area = calculate_rectangle_area(length, width)
+        print(f"Arean av rektangeln är: {area} kvadratenheter")
+    elif val =="2":
+        radie = float(input("ange arean"))
+        area = calculate_circle_area(radie)
+        print(f"arean av cirkeln är: {area}")
+    elif val == "3":
+        base = float(input("ange basen: "))
+        höjd = float(input("ange höjden: "))
+        area = calculate_triangle_area(base, höjd)
+        print(f"arean av trianglen är: {area}")
+    elif val == "4":
+        print("tack för att du kom! ")
+    else: 
+        print("välj mellan 1-4 din idiot ")
+meny()
+    
+    
 
 # Test your functions with these values:
 # Rectangle: length=5, width=3
